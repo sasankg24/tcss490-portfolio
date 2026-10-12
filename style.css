@@ -1,0 +1,38 @@
+:root {
+  --bg: #0f1115;
+  --surface: #181b22;
+  --border: #2a2f3a;
+  --text: #e8eaf0;
+  --muted: #9aa3b2;
+  --accent: #6ea8fe;
+  --done: #4fd1a5;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+.hero, main, footer { max-width: 960px; margin: 0 auto; padding: 0 20px; }
+.hero { padding-top: 72px; padding-bottom: 40px; border-bottom: 1px solid var(--border); }
+.eyebrow { color: var(--accent); font-size: 0.85rem; letter-spacing: 0.04em; text-transform: uppercase; margin: 0; }
+h1 { font-size: clamp(2.2rem, 6vw, 3.4rem); margin: 8px 0 12px; }
+.about { color: var(--muted); font-size: 1.1rem; max-width: 640px; }
+.links a { color: var(--accent); margin-right: 16px; text-decoration: none; }
+.links a:hover { text-decoration: underline; }
+main { padding-top: 40px; padding-bottom: 40px; }
+h2 { margin: 0 0 4px; }
+.section-note { color: var(--muted); margin-top: 0; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; margin-top: 24px; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; display: flex; flex-direction: column; }
+.card-done { border-top: 3px solid var(--done); }
+.card-idea { border-top: 3px dashed var(--border); }
+.card-label { margin: 0; font-size: 0.8rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
+.card-done .card-label { color: var(--done); }
+.card h3 { margin: 6px 0 8px; }
+.card-body { color: var(--muted); margin: 0 0 12px; flex-grow: 1; }
+.card-link { color: var(--accent); text-decoration: none; font-weight: 600; }
+.card-link:hover { text-decoration: underline; }
+footer { color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--border); padding-top: 20px; padding-bottom: 40px; }
