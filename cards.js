@@ -22,6 +22,12 @@ const CARDS = [
     link: "https://github.com/sasankg24/deadline-tracker/tree/main/tools",
     reflection: "A script that puts Claude inside my Deadline Tracker. It runs Claude Code headless to read a course page and pull out each deadline, then plain code checks every answer before saving: the quoted date has to actually be on the page, the date has to be real, and duplicates are skipped. On its first real run it added all 13 TCSS 371 deadlines from Canvas correctly. I learned to keep the model's job small and make the code distrust it, and the tests with a fake model caught a bug I would have missed."
   },
-  { number: 4, title: "Lifestyle & Lifting App", status: "idea", link: "", reflection: "An app to plan and track workouts and lifts over time, along with healthy daily habits, all in one place." },
+  {
+    number: 4,
+    title: "Spotify Playlist Bot",
+    status: "progress",
+    link: "",
+    reflection: "Week 1 status: I'm still looking for a teammate, and this is the idea I'm leading with. A bot that makes Spotify playlists easier to build and change: it can fill a playlist with your most-listened-to artists or songs, or you can ask for a playlist of one artist and it picks the tracks from your Liked Songs and your other playlists. Next steps are to find a partner on the course Discord, pick the person we're building it for and ask what they actually want, then write a shared plan and CLAUDE.md before anyone starts coding."
+  },
   { number: 5, title: "A Better Siri", status: "idea", link: "", reflection: "A voice assistant that is more useful than Siri: one that understands what I actually mean and can get real tasks done for me." }
 ];

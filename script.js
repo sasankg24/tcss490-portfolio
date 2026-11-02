@@ -7,7 +7,9 @@ function renderCards() {
 
     const label = document.createElement("p");
     label.className = "card-label";
-    label.textContent = "Artifact " + card.number + (card.status === "done" ? "" : " · Idea");
+    const statusText = { done: "", progress: " · In progress" };
+    label.textContent = "Artifact " + card.number
+        + (card.status in statusText ? statusText[card.status] : " · Idea");
 
     const title = document.createElement("h3");
     title.textContent = card.title;
