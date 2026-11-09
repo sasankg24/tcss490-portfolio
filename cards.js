@@ -24,10 +24,10 @@ const CARDS = [
   },
   {
     number: 4,
-    title: "Spotify Playlist Bot",
-    status: "progress",
-    link: "",
-    reflection: "Week 1 status: I'm still looking for a teammate, and this is the idea I'm leading with. A bot that makes Spotify playlists easier to build and change: it can fill a playlist with your most-listened-to artists or songs, or you can ask for a playlist of one artist and it picks the tracks from your Liked Songs and your other playlists. Next steps are to find a partner on the course Discord, pick the person we're building it for and ask what they actually want, then write a shared plan and CLAUDE.md before anyone starts coding."
+    title: "Daily Scoreboard",
+    status: "done",
+    link: "https://github.com/sasankg24/daily-scoreboard",
+    reflection: "A scoreboard for my friend group's daily games (Wordle, Connections, Daily Tens, Krillion). You paste a game's share text, it reads the score, gives 2 points for a solo win or 1 each for a tie, and keeps daily winners and monthly standings that reset each month. The scoring rules came from my friends, and the parsers are tested on real shares from our group chat. I didn't find a teammate in time, so I built it on my own with Claude, but I still wrote the plan, CLAUDE.md, and a shared log so a teammate's agent could join. I learned that asking the people you build for comes first: Snapchat can't be read by other apps, which changed the whole design. Next is a shared database so each friend can submit their own results. Live at sasankg24.github.io/daily-scoreboard."
   },
   { number: 5, title: "A Better Siri", status: "idea", link: "", reflection: "A voice assistant that is more useful than Siri: one that understands what I actually mean and can get real tasks done for me." }
 ];
