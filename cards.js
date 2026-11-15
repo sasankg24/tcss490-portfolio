@@ -29,5 +29,11 @@ const CARDS = [
     link: "https://github.com/sasankg24/daily-scoreboard",
     reflection: "A scoreboard for my friend group's daily games (Wordle, Connections, Daily Tens, Krillion). You paste a game's share text, it reads the score, gives 2 points for a solo win or 1 each for a tie, and keeps daily winners and monthly standings that reset each month. The scoring rules came from my friends, and the parsers are tested on real shares from our group chat. I didn't find a teammate in time, so I built it on my own with Claude, but I still wrote the plan, CLAUDE.md, and a shared log so a teammate's agent could join. I learned that asking the people you build for comes first: Snapchat can't be read by other apps, which changed the whole design. Next is a shared database so each friend can submit their own results. Live at sasankg24.github.io/daily-scoreboard."
   },
-  { number: 5, title: "A Better Siri", status: "idea", link: "", reflection: "A voice assistant that is more useful than Siri: one that understands what I actually mean and can get real tasks done for me." }
+  {
+    number: 5,
+    title: "Daily Scoreboard v2",
+    status: "progress",
+    link: "https://github.com/sasankg24/daily-scoreboard",
+    reflection: "Week 1 status: I'm working solo and building on my Artifact 4 scoreboard for my friend group's daily games. Version 1 only saves results in one browser, so the moonshot is a version everyone uses from their own phone: a shared database, a live scoreboard at a public link, and an AI feature that reads game results from a screenshot, with code checking whatever the model returns. This week I chose the project and wrote a five-week plan with a milestone for each week (in docs/moonshot-plan.md). Next week: pick the backend, move results into it, deploy, and get two friends submitting from their own phones."
+  }
 ];
