@@ -34,6 +34,6 @@ const CARDS = [
     title: "Daily Scoreboard v2",
     status: "progress",
     link: "https://github.com/sasankg24/daily-scoreboard",
-    reflection: "Week 1 status: I'm working solo and building on my Artifact 4 scoreboard for my friend group's daily games. Version 1 only saves results in one browser, so the moonshot is a version everyone uses from their own phone: a shared database, a live scoreboard at a public link, and an AI feature that reads game results from a screenshot, with code checking whatever the model returns. This week I chose the project and wrote a five-week plan with a milestone for each week (in docs/moonshot-plan.md). Next week: pick the backend, move results into it, deploy, and get two friends submitting from their own phones."
+    reflection: "Week 2 status: it's live at sasankg24.github.io/daily-scoreboard with a shared Firebase database, and three of us (me and two friends) posted results from our own phones on the first day. Each friend now has a name and password that works on any device, and the database's security rules only let an account post under its own name. I tested the rules by trying to break them from the browser, and testing also caught a bug where phones still signed in the old way got stuck on 'Connecting' before friends ever saw it. Next week: get the whole group using it daily, settle tie rules with them, and make it installable on a phone home screen. Week 1: chose the project and wrote a five-week plan (docs/moonshot-plan.md)."
   }
 ];
